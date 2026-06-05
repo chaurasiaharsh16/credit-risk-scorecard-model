@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+
+# Model artifacts
+*.pkl
+
+# OS files
+.DS_Store
