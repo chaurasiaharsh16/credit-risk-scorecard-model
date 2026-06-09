@@ -1,0 +1,29 @@
+# Data
+
+## LendingClub Loan Dataset
+
+This project uses the LendingClub loan dataset available publicly on Kaggle.
+
+### Download Instructions
+
+1. Go to: [https://www.kaggle.com/datasets/wordsforthewise/lending-club](https://www.kaggle.com/datasets/wordsforthewise/lending-club)
+2. Download the dataset (requires a free Kaggle account)
+3. Extract `loan.csv` and place it in this `data/` directory
+
+### Expected File
+
+```
+data/
+└── loan.csv        # ~1.8 GB, ~2.26M rows × 145 columns
+```
+
+The file is excluded from this repository via `.gitignore` due to its size.
+
+### Dataset Notes
+
+- Source: LendingClub peer-to-peer lending platform (2007–2018)
+- Observations used: Loans with resolved status only (`Fully Paid`, `Charged Off`, `Default`)
+- Time split used in this project:
+  - **Train**: Loans issued before January 2014
+  - **Test**: Loans issued January 2014 – December 2014
+  - **OOT**: Loans issued January 2015 onward
